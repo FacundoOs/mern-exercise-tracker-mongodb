@@ -7,7 +7,7 @@ import axios from "axios";
 
 let apiUrl;
 if (process.env.NODE_ENV === "production") {
-  apiUrl = "https://mern-exercise-tracker-fo.herokuapp.com/";
+  apiUrl = "https://mern-database.herokuapp.com/";
 } else {
   apiUrl = "http://localhost:5000/";
 }
